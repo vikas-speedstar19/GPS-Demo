@@ -13,6 +13,9 @@
 		F106D29A25A6100B000AFA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F106D29825A6100B000AFA18 /* Main.storyboard */; };
 		F106D29C25A6100B000AFA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F106D29B25A6100B000AFA18 /* Assets.xcassets */; };
 		F106D29F25A6100B000AFA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F106D29D25A6100B000AFA18 /* LaunchScreen.storyboard */; };
+		F1561EC425A7810D008D0137 /* LocationUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1561EC225A7810D008D0137 /* LocationUpdateViewController.swift */; };
+		F1561EC525A7810D008D0137 /* LocationUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1561EC325A7810D008D0137 /* LocationUpdateViewController.xib */; };
+		F196472225A8C8BA00FFC020 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F196472125A8C8BA00FFC020 /* APIs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		F106D29B25A6100B000AFA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F106D29E25A6100B000AFA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F106D2A025A6100B000AFA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1561EC225A7810D008D0137 /* LocationUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUpdateViewController.swift; sourceTree = "<group>"; };
+		F1561EC325A7810D008D0137 /* LocationUpdateViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LocationUpdateViewController.xib; sourceTree = "<group>"; };
+		F196472125A8C8BA00FFC020 /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +63,11 @@
 			isa = PBXGroup;
 			children = (
 				F106D29225A6100B000AFA18 /* AppDelegate.swift */,
+				F196472125A8C8BA00FFC020 /* APIs.swift */,
 				F106D29425A6100B000AFA18 /* SceneDelegate.swift */,
 				F106D29625A6100B000AFA18 /* ViewController.swift */,
+				F1561EC225A7810D008D0137 /* LocationUpdateViewController.swift */,
+				F1561EC325A7810D008D0137 /* LocationUpdateViewController.xib */,
 				F106D29825A6100B000AFA18 /* Main.storyboard */,
 				F106D29B25A6100B000AFA18 /* Assets.xcassets */,
 				F106D29D25A6100B000AFA18 /* LaunchScreen.storyboard */,
@@ -124,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1561EC525A7810D008D0137 /* LocationUpdateViewController.xib in Resources */,
 				F106D29F25A6100B000AFA18 /* LaunchScreen.storyboard in Resources */,
 				F106D29C25A6100B000AFA18 /* Assets.xcassets in Resources */,
 				F106D29A25A6100B000AFA18 /* Main.storyboard in Resources */,
@@ -137,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1561EC425A7810D008D0137 /* LocationUpdateViewController.swift in Sources */,
 				F106D29725A6100B000AFA18 /* ViewController.swift in Sources */,
 				F106D29325A6100B000AFA18 /* AppDelegate.swift in Sources */,
+				F196472225A8C8BA00FFC020 /* APIs.swift in Sources */,
 				F106D29525A6100B000AFA18 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B86CVFA2J5;
 				INFOPLIST_FILE = "GPS-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B86CVFA2J5;
 				INFOPLIST_FILE = "GPS-Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
